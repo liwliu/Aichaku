@@ -9,7 +9,7 @@ let config = {
 };
 
 let textConfig = {
-    fontFamily: 'Thoughts',
+    fontFamily: 'CrimsonBold',
     fontSize: '25px',
     color: '#FFFFFFF',
     align: 'left',
@@ -28,6 +28,7 @@ const centerY = game.config.height / 2;
 
 let keyQ;
 let keyW;
+let keySpace;
 
 let goodChoices = 0;
 let badChoices = 0;

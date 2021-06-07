@@ -4,7 +4,7 @@ class Day1 extends Phaser.Scene{
 
                 // dialog constants
                 this.DBOX_X = 0;			    // dialog box x-position
-                this.DBOX_Y = 400;			    // dialog box y-position
+                this.DBOX_Y = 0;			    // dialog box y-position
                 this.DBOX_FONT = 'Thoughts';	// dialog box font key
         
                 this.TEXT_X = 50;			// text w/in dialog box x-position
@@ -36,12 +36,12 @@ class Day1 extends Phaser.Scene{
         keySpace = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.SPACE);
 
         //bgm tbd
+        this.bgm = this.sound.add('mainBgm', {volume: 0.3});
+        this.bgm.play({ loop: true });
 
         //UI assets
-        this.dialogueBox = this.add.sprite(this.DBOX_X, this.DBOX_Y) // dialogue box
-
-        this.dialogText = this.add.bitmapText(this.TEXT_X, this.TEXT_Y, this.DBOX_FONT, '', this.TEXT_SIZE);
-        this.nextText = this.add.bitmapText(this.NEXT_X, this.NEXT_Y, this.DBOX_FONT, '', this.TEXT_SIZE);
+        this.background = this.add.sprite(0, 0, 'schoolGate').setOrigin(0, 0);
+        this.dialogueBox = this.add.sprite(this.DBOX_X, this.DBOX_Y, 'textBox').setOrigin(0, 0) // dialogue box
 
         // place images offscreen
         this.nobukoNeutral = this.add.sprite(this.OFFSCREEN_X, this.DBOX_Y+8, 'nobukoNeutral').setOrigin(0, 1);
@@ -55,7 +55,7 @@ class Day1 extends Phaser.Scene{
         this.button_classmate_lunch = this.add.sprite().setOrigin().setInteractive({useHandCursor: true});
         this.button_nobuko_lunch = this.add.sprite().setOrigin().setInteractive({useHandCursor: true});
 
-        //
+        // text variables
 
         scriptText = this.cache.json.get('Day1Script');
         dialogueText = this.add.text(80, 445, scriptText.day1_morning[0], textConfig);
@@ -66,14 +66,20 @@ class Day1 extends Phaser.Scene{
 
     update() {
 
+        if(Phaser.Input.Keyboard.JustDown(keySpace)) {
+            // trigger dialog
+           this.dialogText = this.nextLine(scriptText.day1_morning);
+        }
     }
+    
 
-    moveNextLine(text) {
-        if(Phaser.Input.Keyboard.JustDown(keySpace) && nextLine < text.length){
+    nextLine(target) {
+        if(Phaser.Input.Keyboard.JustDown(keySpace) && nextLine == target.length){
             console.log("nextLine is " + nextLine);
-            narrativeText.setText(target[nextLine]);
+            dialogueText.setText(target[nextLine]);
             nextLine++;
         }
+
     }
 
 
