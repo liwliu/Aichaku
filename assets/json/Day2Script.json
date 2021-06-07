@@ -1,0 +1,53 @@
+{
+    "day2_morning":[
+        "The morning starts in its usual fashion. \n I stand outside of Nobuko’s house, waiting for her to run out and join me.",
+        "I wonder how long it’ll take her this time. \n Suddenly, I hear the door open and close.",
+        "Nobuko: MC-kun! Sorry for keeping you waiting!",
+        "There’s that familiar apology. She joins me and we start walking to school.",
+        "MC: It’s fine, don’t worry about it. What took you so long?",
+        "Nobuko: Oh, nothing, just the usual. \n I had a little bit of trouble getting out of bed this morning.",
+        "MC: Are you sleeping enough?",
+        "Nobuko: Aww, are you worried about me? How sweet."
+    ],
+    "usual_amount":[
+        "Nobuko: Well, I appreciate the concern! \n But I am sleeping fine, thank you very much."
+    ],
+    "just_wondering":[
+        "Nobuko: Oh my gosh, are you getting embarrassed?",
+        "MC: Huh? No, I’m not.",
+        "I turn away from Nobuko, who’s trying to catch a look at my face.",
+        "Nobuko: Aww, you’re so cute! I appreciate the concern, \n but I’m sleeping okay."
+    ],
+    "day2_morning_end":[
+        "MC: You sure you’re not staying up too late watching those dramas you like so much?",
+        "Nobuko: Well…",
+        "Nobuko hesitates a little bit. I was on the mark.",
+        "Nobuko: Okay, maybe a little bit! I just get sucked in \n and it’s hard to not want to watch the next episode!",
+        "MC: Ha, I knew it! Try to resist, especially since \n we’re almost on summer break.",
+        "Nobuko: Yeah, yeah…"
+    ],
+    "day2_after_school":[
+        "The school day passes, nothing too interesting today. \n I wait in the hallway for Nobuko to join me so we can start making our way home.",
+        "There’s a peaceful silence for a bit while we walk home. \n A silence that’s broken by a sudden stomach growl.",
+        "Nobuko: Oh, MC-kun, are you hungry by any chance?",
+        "MC: Jeez, you heard that?",
+        "Nobuko lets out a little giggle.",
+        "Nobuko: Yeah, it was kinda loud!",
+        "I feel my face warm up in embarrassment.",
+        "MC: Whoops, guess I didn’t eat enough during lunch today.",
+        "Nobuko: You gotta make sure you eat! \n Do you wanna stop by a store and get some snacks?",
+        "MC: Oh no, that’s okay. \n I don’t want to spoil my appetite for dinner when I’m home.",
+        "NOBUKO: You sure?",
+        "I think for a moment. On one hand, I really don’t want to ruin dinner for myself. \n But on the other hand, I kinda want to spend more time with Nobuko. \n Then, the idea hits me.",
+        "MC: Yeah, I’ll be fine. Why don’t I take you up on that offer \n tomorrow though? Maybe we can go to a cafe or something.",
+        "NOBUKO: That sounds like it’d be really fun! I’d love to.",
+        "She’s so excited, it’s actually… kinda cute. \n Wait. \n Did I really just think that?",
+        "We finally reach Nobuko’s house, and we part ways after saying our goodbyes to each other. \n I push my previous thought in the back of my mind until I get home."
+    ],
+    "day2_night":[
+        "As I lay in bed, I turn the lock around in my hand again. \n My mind drifts away, thinking about earlier.",
+        "*Did I ask Nobuko on a date? No, it’s just something normal friends do. \n But then why am I embarrassed?*",
+        "Gah. Too much to think about right now.",
+        "Nothing a good amount of sleep can’t fix. \n I put the lock back on my bedside table, close my eyes, and drift off."
+    ]
+}

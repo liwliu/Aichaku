@@ -1,21 +1,22 @@
 [
 	[
 		{
-			"speaker" : "homer",
-			"dialog" : "Tell me, O muse, of that ingenious hero who travelled far and wide after he had sacked the famous town of Troy.",
+			"speaker" : "MC",
+			"dialog" : "The cherry blossoms are in full bloom now. The trees sway in the wind as I watch, deep in thought.",
 			"newSpeaker" : "true"
 		},
 		{
-			"speaker" : "homer",
-			"dialog" : "Many cities did he visit, and many were the nations with whose manners and customs he was acquainted."
+			"speaker" : "MC",
+			"dialog" : "The cherry blossoms mark the spring season, but also the beginning of the end of my time in high school."
 		},
 		{	
-			"speaker" : "homer",
-			"dialog" : "Moreover he suffered much by sea while trying to save his own life and bring his men safely home."
+			"speaker" : "Nobuko",
+			"dialog" : "[MC]-kun!"
 		},
 		{	
-			"speaker" : "homer",
-			"dialog" : "But do what he might he could not save his men, for they perished through their own sheer folly in eating the cattle of the Sun-god Hyperion."
+			"speaker" : "MC",
+			"dialog" : "But do what he might he could not save his men, for they perished through their own sheer folly in eating the cattle of the Sun-god Hyperion.",
+			"newSpeaker" : true
 		},
 		{	
 			"speaker" : "homer",
